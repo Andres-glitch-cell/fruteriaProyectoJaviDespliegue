@@ -7,91 +7,109 @@
   <img src="https://img.shields.io/badge/AWS_EC2-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=FF9900" alt="AWS EC2"/>
 </p>
 
-> **"¡La frutería es un negocio serio... y este código lo demuestra!"** 🍎
+> **"Frutas frescas, código fresco: una experiencia digital con sabor a campo."** 🍎
 
 ---
 
 ## 🎯 **Objetivo y Arquitectura**
 
-Implementar una **aplicación web funcional** para una frutería virtual, demostrando el despliegue completo de una **arquitectura LAMP** (Linux, Apache, MariaDB, PHP) en **AWS EC2**.
+Una **aplicación web moderna y funcional** que lleva la experiencia de una frutería tradicional al mundo digital.  
+Demostración completa de una **arquitectura LAMP** desplegada en **AWS EC2**, con enfoque en **usabilidad, rendimiento y escalabilidad**.
 
-### Habilidades demostradas:
-- ✅ **CRUD completo** con MariaDB  
-- ✅ **Conexión segura** entre PHP y base de datos  
-- ✅ **Despliegue en la nube** (Ubuntu + Apache + AWS)  
-- ✅ **Interfaz amigable** para clientes y administradores  
+### Para clientes y usuarios:
+- 🛒 **Catálogo interactivo** con imágenes, precios y disponibilidad en tiempo real  
+- ✅ **Actualización instantánea** del stock al comprar  
+- 🎨 **Diseño limpio y responsive** (funciona en móvil y escritorio)
 
 ---
 
 ## 🌟 **¡Frescura Garantizada!**
 
-> *"Del campo directo a tu navegador... con amor y código."* 🍉
+> *"Cada fruta tiene una historia. Este proyecto la cuenta con código."* 🍉
 
 ---
 
 ## 🛠️ **Stack Tecnológico (La Receta Perfecta)**
 
-| Componente | Rol en el Proyecto | Tema |
-|-----------|---------------------|------|
-| **HTML/CSS** | Estructura y estilo de la interfaz | 🎨 |
-| **PHP** | Lógica de negocio y manejo de peticiones | 🐘 |
-| **MariaDB** | Almacenamiento persistente del inventario | 💾 |
-| **Apache2** | Servidor HTTP que expone la aplicación | ⚙️ |
-| **Ubuntu (AWS EC2)** | Sistema operativo y plataforma cloud | ☁️ |
+| Tecnología | Rol | Beneficio para el Cliente |
+|----------|-----|----------------------------|
+| **HTML/CSS** | Interfaz visual | Navegación intuitiva y atractiva |
+| **PHP** | Motor de la aplicación | Respuestas rápidas y seguras |
+| **MariaDB** | Base de datos | Inventario siempre actualizado |
+| **Apache2** | Servidor web | Acceso confiable 24/7 |
+| **AWS EC2** | Nube | Disponibilidad global y escalable |
 
 ---
 
 ## 🍎 **Módulos de la Aplicación**
 
 ### 1. 🏠 **Página de Inicio (`index.php`)**
-- Punto de entrada principal  
-- Navegación a **Catálogo** y **Gestión de Inventario**
+- Bienvenida clara y profesional  
+- Acceso directo a **comprar** o **gestionar inventario**
 
 ---
 
 ### 2. 🍉 **Catálogo de Productos (`catalogo.php`)**
 
-| Funcionalidad | Descripción | Operación DB |
-|--------------|-------------|--------------|
-| **Visualización** | Muestra productos en tabla con imagen | `SELECT` |
-| **Actualización** | Modifica stock en tiempo real | `UPDATE` |
-| **Eliminación** | Da de baja productos | `DELETE` |
+**Lo que el cliente ve y ama:**
 
-> **Requisito clave**: La DB debe contener inicialmente **'Fruta de la Pasión'** para validar conexión.
+| Característica | Valor para el Cliente |
+|----------------|------------------------|
+| **Tabla visual** | Nombre, precio, cantidad e imagen realista |
+| **Stock en vivo** | Nunca compras algo que no hay |
+| **Actualización rápida** | Cambia la cantidad disponible con un clic |
+| **Eliminar producto** | Gestión limpia del catálogo |
 
----
-
-### 3. 📝 **Inventario / Insertar Producto (`inventario.php`)**
-
-Formulario de alta con:
-- Nombre
-- Precio
-- Cantidad
-- URL de imagen
-
-> Envío → `INSERT` directo en MariaDB
+> **Producto estrella inicial:** *Fruta de la Pasión* — ¡la prueba de que todo funciona!
 
 ---
 
-## ⚙️ **Guía de Despliegue y Configuración**
+### 3. 📝 **Gestión de Inventario (`inventario.php`)**
 
-### A. **Estructura de la Base de Datos (MariaDB)**
+**Para el equipo de la frutería:**
 
-```sql
--- 1. Crear la tabla 'productos'
-CREATE TABLE productos (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    nombre VARCHAR(255) NOT NULL,
-    precio DECIMAL(10, 2) NOT NULL,
-    cantidad INT NOT NULL,
-    imagen_url VARCHAR(255)
-);
+- Formulario simple y profesional  
+- Añade nuevas frutas en segundos  
+- Campos: **nombre, precio, cantidad, imagen**  
+- Todo se guarda automáticamente
 
--- 2. Insertar el producto inicial (REQUISITO)
-INSERT INTO productos (nombre, precio, cantidad, imagen_url)
-VALUES (
-  'Fruta de la Pasión',
-  3.50,
-  15,
-  'https://placehold.co/100x100/FFD700/000000?text=Pasión'
-);
+---
+
+## ⚙️ **Despliegue en la Nube (AWS)**
+
+1. **Servidor Ubuntu** configurado con Apache  
+2. **Base de datos MariaDB** segura y optimizada  
+3. **PHP** conectado y listo para procesar pedidos  
+4. **Acceso público** vía IP de AWS EC2
+
+> **Listo para escalar**: ¿100 clientes? ¿1.000? La infraestructura responde.
+
+---
+
+## 🔗 **Accede a la Aplicación en Vivo**
+
+<p align="center">
+  <a href="http://TU_IP_PUBLICA_AWS">
+    <img src="https://img.shields.io/badge/Explora%20la%20Fruter%C3%ADa%20Online-Comprar%20Ahora-28A745?style=for-the-badge&logo=shopping-cart&logoColor=white" alt="Comprar Ahora"/>
+  </a>
+</p>
+
+> **URL de la tienda:**  
+> `http://[TU_IP_PUBLICA_AWS]`
+
+---
+
+## 🚀 **¿Quieres tu propia frutería digital?**
+
+Este proyecto es **100% funcional y listo para personalizar**:
+
+- Cambia el nombre  
+- Añade más frutas  
+- Conecta un sistema de pagos  
+- ¡Hazla tuya!
+
+---
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Desarrollado%20con%20Pasión-Frutas%20&%20Código-FF9500?style=for-the-badge&logo=apple&logoColor=white" alt="Con pasión"/>
+</p>
