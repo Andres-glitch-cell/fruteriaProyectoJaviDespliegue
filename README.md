@@ -1,4 +1,4 @@
-# 🥭 **La Frutería Online: Del Campo a tu Código**
+# **La Frutería Online: Del Campo a tu Código**
 
 <p align="center">
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/>
@@ -8,39 +8,39 @@
 </p>
 
 <p align="center">
-  <img src="https://images.unsplash.com/photo-1547514701-42782101795e?w=600&h=300&fit=crop&crop=center" alt="Frutas frescas en el mercado" width="100%"/>
-  <br><sub><i>Frutas seleccionadas, tecnología de punta.</i></sub>
+  <img src="https://images.unsplash.com/photo-1546548970-146dd0d2c699?w=1200&h=600&fit=crop&crop=center" alt="Frutas premium en mercado gourmet" width="100%"/>
+  <br><sub><i>Calidad premium, tecnología premium.</i></sub>
 </p>
 
-> **`Frutas frescas, código fresco: una experiencia digital con sabor a campo.`** 🍎
+> **`Frutas frescas, código fresco: una experiencia digital con sabor a campo.`** 
 
 ---
 
-## 🎯 **Objetivo y Arquitectura**
+## **Objetivo y Arquitectura**
 
-Una **plataforma e-commerce completa** que transforma la experiencia de una frutería tradicional en un **negocio digital moderno**, escalable y accesible desde cualquier dispositivo.
+Una **plataforma e-commerce de alta calidad** que convierte una frutería tradicional en un **negocio digital moderno, profesional y escalable**.
 
 Desplegada en **AWS EC2** con arquitectura **LAMP**, garantiza:
-- Velocidad  
-- Seguridad  
-- Disponibilidad 24/7  
+- Velocidad
+- Seguridad
+- Disponibilidad 24/7
 - Experiencia de usuario premium
 
 ---
 
-## 🌟 **¡Frescura Garantizada!**
+## **¡Frescura Garantizada!**
 
-> *"Cada fruta tiene una historia. Este proyecto la cuenta con código."* 🍉
+> *"Cada fruta tiene una historia. Este proyecto la cuenta con código."* 
 
 <p align="center">
-  <img src="https://images.unsplash.com/photo-1601000938229-1a5f28a21e2f?w=500&h=300&fit=crop" alt="Mango jugoso" width="48%"/>
-  <img src="https://images.unsplash.com/photo-1587014379204-4f6a49b8a6b7?w=500&h=300&fit=crop" alt="Piña fresca" width="48%"/>
-  <br><sub><i>Productos reales, imágenes reales, stock real.</i></sub>
+  <img src="https://images.unsplash.com/photo-1603831553020-9b4c6d5b0e7e?w=600&h=400&fit=crop" alt="Mango Alphonso premium" width="48%"/>
+  <img src="https://images.unsplash.com/photo-1580053592892-57e48c5d4360?w=600&h=400&fit=crop" alt="Piña dorada fresca" width="48%"/>
+  <br><sub><i>Imágenes de calidad profesional — como tus productos.</i></sub>
 </p>
 
 ---
 
-## 🛠️ **Stack Tecnológico (La Receta Perfecta)**
+## **Stack Tecnológico (La Receta Perfecta)**
 
 | Tecnología | Rol | Beneficio para el Cliente |
 |----------|-----|----------------------------|
@@ -52,13 +52,14 @@ Desplegada en **AWS EC2** con arquitectura **LAMP**, garantiza:
 
 ---
 
-## 🍎 **Módulos de la Aplicación**
+## **Módulos de la Aplicación**
 
 ### 1. **Página de Inicio (`index.php`)**  
 Bienvenida profesional con acceso inmediato a:
 
 <p align="center">
-  <img src="https://images.unsplash.com/photo-1519996529931-28324d5a630e?w=600&h=400&fit=crop" alt="Frutería tradicional" width="80%"/>
+  <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1000&h=600&fit=crop" alt="Frutería boutique moderna" width="85%"/>
+  <br><sub><i>Estética premium desde el primer clic.</i></sub>
 </p>
 
 ---
@@ -69,7 +70,7 @@ Bienvenida profesional con acceso inmediato a:
 
 | Característica | Valor para el Cliente |
 |----------------|------------------------|
-| **Tabla visual** | Nombre, precio, cantidad e **imagen realista** |
+| **Tabla visual** | Nombre, precio, cantidad e **imagen profesional** |
 | **Stock en vivo** | Nunca compras algo que no hay |
 | **Actualización rápida** | Cambia la cantidad disponible con un clic |
 | **Eliminar producto** | Gestión limpia del catálogo |
@@ -77,8 +78,9 @@ Bienvenida profesional con acceso inmediato a:
 > **Producto estrella inicial:** *Fruta de la Pasión* — ¡la prueba de que todo funciona!
 
 <p align="center">
-  <img src="https://images.unsplash.com/photo-1596591607-2a1f5f01c3e0?w=400&h=250&fit=crop" alt="Fruta de la pasión" width="45%"/>
-  <img src="https://images.unsplash.com/photo-1566484590-33b38d3bc7d8?w=400&h=250&fit=crop" alt="Fresas frescas" width="45%"/>
+  <img src="https://images.unsplash.com/photo-1596591607-2a1f5f01c3e0?w=500&h=350&fit=crop" alt="Fruta de la pasión premium" width="45%"/>
+  <img src="https://images.unsplash.com/photo-1621527772105-81a9b2e7b2c8?w=500&h=350&fit=crop" alt="Fresas orgánicas" width="45%"/>
+  <br><sub><i>Calidad que se ve, calidad que se siente.</i></sub>
 </p>
 
 ---
@@ -94,7 +96,7 @@ Bienvenida profesional con acceso inmediato a:
 
 ---
 
-## ⚙️ **Despliegue en la Nube (AWS)**
+## **Despliegue en la Nube (AWS)**
 
 1. **Servidor Ubuntu** configurado con Apache  
 2. **Base de datos MariaDB** segura y optimizada  
@@ -128,8 +130,8 @@ Este proyecto es **100% funcional y listo para personalizar**:
 - ¡Hazla tuya y lánzala al mercado!
 
 <p align="center">
-  <img src="https://images.unsplash.com/photo-1606890658317-6510e78d853e?w=600&h=300&fit=crop" alt="Frutas en caja lista para entrega" width="90%"/>
-  <br><sub><i>Listo para entrega digital e inmediata.</i></sub>
+  <img src="https://images.unsplash.com/photo-1606890658317-6510e78d853e?w=1000&h=500&fit=crop" alt="Caja de frutas premium lista para entrega" width="90%"/>
+  <br><sub><i>Entrega digital inmediata. Experiencia real garantizada.</i></sub>
 </p>
 
 ---
